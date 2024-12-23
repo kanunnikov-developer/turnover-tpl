@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container{
+    width: calc(1400px - 990px - 20px);
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 20px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button{
+    width: 100%;
+}
+
+.select{
+    width: 100%;
+    padding: 10px;
+    background: var(--input-bg-color);
+    border-radius: 5px;
+}
+
+.select:focus{
+    border: none;
+    outline: none;
+}

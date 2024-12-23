@@ -1,0 +1,25 @@
+.grid{
+    width: 990px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+}
+
+.overlay{
+    color: var(--text-color);
+    position: fixed;
+    left: 42%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    border-radius: 20px;
+    width: 365px; 
+}
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}

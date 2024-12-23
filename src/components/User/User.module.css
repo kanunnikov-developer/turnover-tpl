@@ -1,0 +1,27 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: calc(1400px - 990px - 20px);
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.user-one{
+    display: flex;
+    align-items: center;
+}
+
+.user-info{
+    margin-left: 10px;
+}
+
+.name{
+    font-weight: 600;
+}
+
+.phone{
+    font-weight: 300;
+}

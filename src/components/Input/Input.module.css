@@ -1,0 +1,11 @@
+.input{
+    width: 100%;
+    padding: 10px;
+    background: var(--input-bg-color);
+    border-radius: 5px;
+}
+
+.input::placeholder{
+    color: var(--text-color);
+    opacity: 50%;
+}

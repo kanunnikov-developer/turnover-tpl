@@ -1,0 +1,59 @@
+.card{
+    width: calc((990px - 40px)/3);
+    padding: 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-break: break-all;
+}
+
+.title, .price{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title_row{
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.copy-img{
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+
+.article{
+    color: var(--primary-color);
+}
+
+.price-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+
+.expirationDate{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.button{
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}

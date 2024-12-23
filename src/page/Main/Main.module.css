@@ -1,0 +1,14 @@
+.content{
+    width: 1400px;
+    margin: 40px auto;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.outlet{
+    margin-top: 20px;
+}

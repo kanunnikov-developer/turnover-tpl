@@ -1,0 +1,27 @@
+.filter-card{
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: calc((990px - 40px)/3);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.title{
+    font-weight: 600;
+}
